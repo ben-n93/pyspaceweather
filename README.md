@@ -1,6 +1,12 @@
 # pyspaceweather
 
-[![Documentation Status](https://readthedocs.org/projects/py-spaceweather/badge/?version=latest)](https://py-spaceweather.readthedocs.io/en/latest/?badge=latest)
+<p align="center">
+    <a href='https://py-spaceweather.readthedocs.io/en/latest/?badge=latest'><img src='https://readthedocs.org/projects/py-spaceweather/badge/?version=latest' alt='Documentation Status' /></a>
+    <a href="https://github.com/ben-n93/pyspaceweather/actions/workflows/tests.yml/badge.svg"><img src="https://github.com/ben-n93/pyspaceweather/actions/workflows/tests.yml/badge.svg"           alt="Testing"></a>
+    <a href="https://codecov.io/gh/ben-n93/pyspaceweather"><img src="https://codecov.io/gh/ben-n93/pyspaceweather/graph/badge.svg"/></a>
+    <a href="https://pypi.org/project/pyspaceweather/"><img src="https://img.shields.io/pypi/pyversions/pyspaceweather" alt="versions"></a>
+    <a href="https://github.com/ben-n93/pyspaceweather/blob/main/LICENSE"><img src="https://img.shields.io/pypi/l/pyspaceweather" alt="License"></a>
+</p>
 
 
 `pyspaceweather` is a Python wrapper for the Australian Bureau of Metererology's [Space Weather API](https://sws-data.sws.bom.gov.au/).
