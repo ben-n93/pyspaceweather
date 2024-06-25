@@ -257,9 +257,11 @@ def test_get_index_works_with_missing_date_parameter(spaceweather_api, requests_
     """Test _get_index works if only the start or end parameters is passed a date."""
     data = {
         "data": [
-            {"index": 5, "valid_time": "2021-12-04 00:00:00"},
-            {"index": 6, "valid_time": "2021-12-05 00:00:00"},
-            {"index": 6, "valid_time": "2021-12-06 00:00:00"},
+            [
+                {"index": 5, "valid_time": "2021-12-04 00:00:00"},
+                {"index": 6, "valid_time": "2021-12-05 00:00:00"},
+                {"index": 6, "valid_time": "2021-12-06 00:00:00"},
+            ]
         ]
     }
 
@@ -319,9 +321,11 @@ def test_get_a_index_returns_AIndex(spaceweather_api, requests_mock):
 
     data = {
         "data": [
-            {"index": 5, "valid_time": "2021-12-04 00:00:00"},
-            {"index": 6, "valid_time": "2021-12-05 00:00:00"},
-            {"index": 6, "valid_time": "2021-12-06 00:00:00"},
+            [
+                {"index": 5, "valid_time": "2021-12-04 00:00:00"},
+                {"index": 6, "valid_time": "2021-12-05 00:00:00"},
+                {"index": 6, "valid_time": "2021-12-06 00:00:00"},
+            ]
         ]
     }
 
@@ -342,9 +346,11 @@ def test_get_dst_index_returns_DstIndex(spaceweather_api, requests_mock):
 
     data = {
         "data": [
-            {"index": 6, "valid_time": "2021-11-21 00:05:00"},
-            {"index": 3, "valid_time": "2021-11-21 00:15:00"},
-            {"index": 4, "valid_time": "2021-11-21 00:25:00"},
+            [
+                {"index": 6, "valid_time": "2021-11-21 00:05:00"},
+                {"index": 3, "valid_time": "2021-11-21 00:15:00"},
+                {"index": 4, "valid_time": "2021-11-21 00:25:00"},
+            ]
         ]
     }
 

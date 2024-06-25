@@ -1,7 +1,7 @@
 pyspaceweather
 ==============
 
-`pyspaceweather` is a Python wrapper for the Australian Bureau of Metererology's `Space Weather API <https://sws-data.sws.bom.gov.au/>`_
+`pyspaceweather` is a Python wrapper for the Australian Bureau of Metererology's `Space Weather API <https://sws-data.sws.bom.gov.au/>`_.
 
 The API provides access to near real-time data from the BOM's Australian Space Weather Forecasting Centre.
 
@@ -22,7 +22,7 @@ Alternatively, you can grab the latest source code from GitHub:
 
 .. code-block:: bash
 
-   git clone https://github.com/pyspaceweather/pyspaceweather.git
+   git clone https://github.com/ben-n93/pyspaceweather.git
    cd pyspaceweather
    pip install .
 
@@ -47,7 +47,7 @@ For example, to get details of any magnetic alert current for the Australian reg
 
    alert_warnings = sw.get_mag_alert()
 
-What's returned is a list of ``MagAlert`` objects:
+What's returned is a list of ``MagAlert`` objects (or an empty list, if there is no data availiable):
 
 .. code-block:: python
 
@@ -61,7 +61,7 @@ Or, to get historical A-index values, you can call ``get_a_index()``, passing a 
 
 .. code-block:: python
 
-   a_index_data = sw.get_a_index(start="2023-01-01 00:00:00", endtime=datetime(2023, 1, 1, 12, 30))
+   a_index_data = sw.get_a_index(start="2023-01-01 00:00:00", end=datetime(2023, 12, 1, 12, 30))
 
 
 License

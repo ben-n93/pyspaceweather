@@ -381,7 +381,11 @@ class SpaceWeather:
             raise requests.HTTPError(response.json())
 
         # Parse response.
-        if data := response.json()["data"]:
+        if response.json()["data"]:
+            if index_type in ("a-index", "dst-index"):
+                data = response.json()["data"][0]
+            else:
+                data = response.json()["data"]
             indexes = []
             for index_data in data:
                 if index_type == "k-index":

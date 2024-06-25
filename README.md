@@ -1,5 +1,8 @@
 # pyspaceweather
 
+[![Documentation Status](https://readthedocs.org/projects/py-spaceweather/badge/?version=latest)](https://py-spaceweather.readthedocs.io/en/latest/?badge=latest)
+
+
 `pyspaceweather` is a Python wrapper for the Australian Bureau of Metererology's [Space Weather API](https://sws-data.sws.bom.gov.au/).
 
 The API provides access to near real-time data from the BOM's Australian Space Weather Forecasting Centre.
@@ -42,12 +45,11 @@ description='minor')
 Or, to get historical A-index values, you can call `get_a_index()`, passing a string or `datetime` object to the relevant parameters:
 
 ```python
-a_index_data = sw.get_a_index(start="2023-01-01 00:00:00", endtime=datetime(2023, 1, 1, 12, 30))
+a_index_data = sw.get_a_index(start="2023-01-01 00:00:00", end=datetime(2023, 12, 1, 12, 30))
 ```
 
+## Documentation
 
-
-
-
+You can read documentation for this wrapper at [ReadTheDocs](https://py-spaceweather.readthedocs.io/en/latest/).
 
 

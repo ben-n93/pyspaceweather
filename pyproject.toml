@@ -4,10 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyspaceweather"
-description = "A Python wrapper for the Australian Bureau of Meteorology's Space Weather API"
+description = "A Python wrapper for the Australian Bureau of Meteorology's Space Weather API."
 authors = [
     { name = "Ben Nour", email = "hello@ben-nour.com" }]
-version = "0.0.1"
+version = "0.1.0"
 dependencies = [
     "requests~=2.32.3"
 ]
@@ -28,6 +28,7 @@ requires-python = ">= 3.8"
 [project.urls]
 homepage = "https://github.com/ben-n93/pyspaceweather"
 repository = "https://github.com/ben-n93/pyspaceweather"
+documentation = "https://py-spaceweather.readthedocs.io/en/latest/"
 
 [tool.setuptools]
 packages = ["pyspaceweather"]
