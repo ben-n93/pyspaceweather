@@ -1,7 +1,7 @@
 pyspaceweather
 ==============
 
-`pyspaceweather` is a Python wrapper for the Australian Bureau of Metererology's `Space Weather API <https://sws-data.sws.bom.gov.au/>`_.
+`pyspaceweather` is a Python wrapper for the Australian Bureau of Meteorology's `Space Weather API <https://sws-data.sws.bom.gov.au/>`_.
 
 The API provides access to near real-time data from the BOM's Australian Space Weather Forecasting Centre.
 
