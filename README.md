@@ -1,4 +1,4 @@
-# pyspaceweather
+<h1 align=center>pyspaceweather</h2>
 
 <p align="center">
     <a href='https://py-spaceweather.readthedocs.io/en/latest/?badge=latest'><img src='https://readthedocs.org/projects/py-spaceweather/badge/?version=latest' alt='Documentation Status' /></a>
@@ -6,6 +6,7 @@
     <a href="https://codecov.io/gh/ben-n93/pyspaceweather"><img src="https://codecov.io/gh/ben-n93/pyspaceweather/graph/badge.svg"/></a>
     <a href="https://pypi.org/project/pyspaceweather/"><img src="https://img.shields.io/pypi/pyversions/pyspaceweather" alt="versions"></a>
     <a href="https://github.com/ben-n93/pyspaceweather/blob/main/LICENSE"><img src="https://img.shields.io/pypi/l/pyspaceweather" alt="License"></a>
+    <a href="https://github.com/orbitalindex/awesome-space"><img src="https://awesome.re/mentioned-badge.svg" alt="awesome list badge"></a>
 </p>
 
 
